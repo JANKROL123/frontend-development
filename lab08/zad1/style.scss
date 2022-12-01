@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 2em;
+    nav {
+        //font-size: 2em;
+        display: flex;
+        gap: 1em;
+        background-color: gray;
+        padding: 0.5em;
+        justify-content: space-around;
+    }
+    .links {
+        //font-size: 2em;
+        display: flex;
+        gap: 1em;
+        padding: 2em;
+        justify-content: space-evenly;
+    }
+    button {
+        font-size: inherit;
+    }
+}
