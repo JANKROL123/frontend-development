@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: white;
+    background-color: lighten(black, 20%);
+    nav {
+        background-color: black;
+        font-size: 2em;
+        display: flex;
+        justify-content: space-around;
+        padding: 1em;
+    }
+    .error {
+        color: red;
+    }
+    .todo {
+        display: flex;
+        justify-content: space-between;
+    }
+}
